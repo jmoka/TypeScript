@@ -1,0 +1,32 @@
+concat: combina dois ou mais arrays em um único array
+copyWithin: copia uma sequência de elementos dentro do array
+entries: retorna um objeto iterador com pares chave-valor para cada índice do array
+every: verifica se todos os elementos do array atendem a uma determinada condição
+fill: preenche todos ou uma parte do array com um valor estático
+filter: cria um novo array contendo apenas os elementos que atendem a uma determinada condição
+find: retorna o valor do primeiro elemento no array que atende a uma determinada condição
+findIndex: retorna o índice do primeiro elemento no array que atende a uma determinada condição
+flat: cria um novo array com todos os subarrays concatenados em um único nível
+flatMap: cria um novo array executando uma função em cada elemento do array e, em seguida, achatando o resultado em um único nível
+forEach: executa uma função para cada elemento do array
+includes: verifica se um valor específico está presente no array
+indexOf: retorna o índice da primeira ocorrência de um valor específico no array
+join: junta todos os elementos do array em uma string
+keys: retorna um objeto iterador com os índices do array
+lastIndexOf: retorna o índice da última ocorrência de um valor específico no array
+map: cria um novo array a partir dos resultados da execução de uma função em cada elemento do array original
+pop: remove o último elemento do array e o retorna
+push: adiciona um elemento ao final do array
+reduce: executa uma função em cada elemento do array, resultando em um único valor de saída
+reduceRight: executa uma função em cada elemento do array, começando pelo último elemento e indo até o primeiro, resultando em um único valor de saída
+reverse: inverte a ordem dos elementos no array
+shift: remove o primeiro elemento do array e o retorna
+slice: retorna uma parte do array, selecionando elementos com base em sua posição
+some: verifica se pelo menos um elemento do array atende a uma determinada condição
+sort: classifica os elementos do array em ordem alfabética ou numérica
+splice: remove, adiciona ou substitui elementos em uma determinada posição do array
+toLocaleString: retorna uma string representando os elementos do array formatados de acordo com o idioma local
+toString: converte o array em uma string
+unshift: adiciona um elemento no início do array
+values: retorna um objeto iterador com os valores do array
+É importante lembrar que essas funções estão disponíveis apenas em arrays, e não em objetos ou outros tipos de dados. Além disso, algumas dessas funções podem ter comportamentos diferentes em diferentes versões do JavaScript ou em diferentes ambientes de execução. Por isso, é importante consultar a documentação oficial para obter informações detalhadas sobre cada função.

@@ -1,0 +1,58 @@
+SITE OFICIAL : https://www.typescriptlang.org/download
+
+INSTALAÇÃO NPM ( GLOBAL ) 
+
+" via npm You can use npm to install TypeScript globally, this means that you can use the tsc command anywhere in your terminal.
+
+To do this, run npm install -g typescript. This will install the latest version (currently 5.0).
+
+An alternative is to use npx when you have to run tsc for one-off occasions."
+
+=======================================================================================
+
+! Você pode usar o npm para instalar o TypeScript globalmente, o que significa que você pode usar o comando tsc em qualquer lugar no seu terminal.
+
+Para fazer isso, execute o comando "npm install -g typescript". Isso irá instalar a versão mais recente (atualmente 5.0).
+
+Uma alternativa é usar o npx quando você precisa executar o tsc ocasionalmente.! 
+
+
+-  ABRA O VISUAL STÚDIO-CODE , VÁ EM TERMINAL E ABRA UM NOVO TERMINAL
+- DIGITE : npm install -g typescript
+- APÓS A INSTALAÇÃO :
+    - VERIFIQUE A VERSÃO DO NODE : node --version
+    - VERIFIQUE A VERSÃO DO NPM: npm --version
+    - VERIFIQUE A VERSÃO DO TYPESCRIPT: tsc --version
+
+SE TUDO OCORRER BEM, ESTAMOS PRONTOS PARA TRABALHAR COM TYPESCRIPT 
+
+
+< VERIFICAR A VERSÃO DO PROGRAMA  NO TERMINAL > 
+    - Informar o nome do sistema e depóis --version
+    node --version
+    python --version
+
+<VERIFICAR AS FLAGS>
+    - Informamos a versão e depóis --help
+    tsc primeiro_codigo.ts --help
+
+<COMPILAÇÃO ATUALIZADA>
+    tsc <nome do arquivo.js> --target "es2022"
+
+
+< PARA COMPILAÇÃO MANUAL >
+    tsc
+
+<PARA COMPILAÇÃO AUTOMÁTICA>
+ tsc --watch, -w  
+ ou
+ tsc -w,  
+ Observa os arquivos de entrada.
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+Dedução de Tipos (Type Inference)
+
+O JavaScript é uma linguagem de tipagem dinâmica.
+Isso significa que, mesmo que não informamos um tipo de
+dado para uma variável, o JavaScript irá deduzir o tipo dela e
+armazená-lo de maneira interna.
+
+já o TypeScript é uma linguagem FORTEMENTE TIPADA; ou seuja:
+tem que informamos um tipo de dado para uma variável.
+
+OS TIPOS ( NATIVOS DO JAVASCRIPT) SÃO:
+
+string: Um conjunto de caracteres. É uma representação de informações em
+texto (“Hcode Treinamentos”)
+
+number:
+Um conjunto de números(2011)
+
+boolean:
+Uma informação que possuirá apenas dois valores possíveis:(verdadeiro ou falso , true or false)
+
+array:
+Conjunto de itens em uma única variável que podem possuir qualquer valor.[ “JavaScript”, “TypeScript”, “C#”, “PHP” ]
+
+null:
+Uma informação nula, um dado que não possui valor.( null )
+
+undefined:
+Uma informação que não definida.( undefined )
+
+//<--------------------------------------->//
+OS TIPOS ( NATIVOS DO TYPESCRIPT) SÃO:
+
+tuple:
+Um array que possui um número específico de itens e que possui tipos de dados previamente definidos (“Hcode”, 2015, true )
+
+object:
+Coleção de informações que é definida usando chaves e valores. {nome: “João”, idade: 25}
+
+enum:
+Uma coleção de constantes com valores pré-definidos.( A = 1, B = 2, C = 3 )
+
+any:
+Um dado que pode possuir qualquer tipo ou valor.( “TypeScript”, 10, true, new Date() )
+
+unknown:
+Uma informação com o tipo desconhecido. ( unknown )
+
+void:
+Uma informação vazia. ( Funções sem retorno definido )
+
+never:
+Um valor que nunca existirá. Retorno de funções de erro
+

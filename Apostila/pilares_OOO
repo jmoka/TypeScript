@@ -1,0 +1,29 @@
+// !======================================
+/* 
+! Os pilares da orientação a objetos são quatro: 
+
+*Encapsulamento ( IMPORTANTE) SEGURANÇA: 
+é a ideia de ​‌‍‌agrupar dados e métodos relacionados em uma única unidade​, e 
+esconder a complexidade interna do objeto para o mundo exterior. Isso permite que o objeto 
+mantenha seu estado interno e comportamento protegidos de interferências externas.
+
+*Herança: 
+é a capacidade de ​‌‍‌criar uma nova classe a partir de uma classe existente​, aproveitando 
+os atributos e métodos da classe existente e adicionando novas funcionalidades a ela. A classe 
+​‌‍‌resultante é chamada de subclasse ou classe derivada​, enquanto a classe existente é chamada de 
+​‌‍‌superclasse ou classe base​.
+
+*Polimorfismo: 
+é a ​‌‍‌capacidade de usar o mesmo nome para diferentes objetos ou classes​, de 
+forma que o ​‌‍‌comportamento do objeto varie de acordo com o tipo de objeto ou classe​ em questão. 
+Isso pode ser implementado de várias maneiras, como sobrecarga de método, sobrescrita de método e 
+interfaces.
+
+*Abstração: 
+é a ​‌‍‌ideia de representar um objeto ou conceito do mundo real de forma simplificada​, 
+destacando apenas os aspectos relevantes para o sistema em questão. Isso permite que o programador 
+se concentre apenas nas características essenciais do objeto, ignorando os detalhes irrelevantes. 
+A abstração é frequentemente ​‌‍‌implementada por meio de classes abstratas e interfaces​.
+
+*/
+// !======================================

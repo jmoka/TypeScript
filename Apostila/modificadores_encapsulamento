@@ -1,0 +1,26 @@
+
+O encapsulamento em programação é uma técnica utilizada para proteger os dados e 
+comportamentos de uma classe, limitando o acesso a eles apenas dentro da própria classe ou 
+através de métodos específicos. Em TypeScript, existem quatro modificadores de acesso que podem 
+ser aplicados a propriedades e métodos de uma classe: public, private, readonly e protected.
+
+​‌‍‌Public: ​
+Propriedades e métodos marcados como public são acessíveis de qualquer lugar no código, 
+tanto dentro quanto fora da classe. Esse é o modificador de acesso ​‌‍‌padrão em TypeScript​, 
+o que significa que se você não definir nenhum modificador de acesso, as propriedades e métodos 
+serão públicos por padrão.
+
+​‌‍‌Private:​ 
+Propriedades e métodos marcados como private só podem ser ​‌‍‌acessados dentro da 
+própria classe​. Isso significa que não é possível acessar esses membros de fora da classe 
+ou de subclasses.
+
+​‌‍‌Protected: ​
+Propriedades e métodos marcados como protected ​‌‍‌são semelhantes aos privados, mas podem ser 
+acessados por subclasses da classe que os define​. Isso significa que esses membros são invisíveis 
+para o código fora da classe e de suas subclasses.
+
+​‌‍‌Readonly:​
+é usado em TypeScript para tornar uma propriedade somente leitura, ou seja, 
+seu valor só pode ser definido uma vez, geralmente na inicialização. Depois disso, 
+o valor não pode ser alterado.

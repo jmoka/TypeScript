@@ -1,0 +1,36 @@
+Propriedades:
+
+date: Retorna o dia do mês (de 1 a 31) para a data especificada.
+day: Retorna o dia da semana (de 0 a 6) para a data especificada.
+fullYear: Retorna o ano (quatro dígitos) para a data especificada.
+hours: Retorna as horas (de 0 a 23) para a data especificada.
+milliseconds: Retorna os milissegundos (de 0 a 999) para a data especificada.
+minutes: Retorna os minutos (de 0 a 59) para a data especificada.
+month: Retorna o mês (de 0 a 11) para a data especificada.
+seconds: Retorna os segundos (de 0 a 59) para a data especificada.
+time: Retorna o valor numérico correspondente ao número de milissegundos desde 1º de janeiro de 1970 00:00:00 UTC para a data especificada.
+timezoneOffset: Retorna o deslocamento em minutos para a hora UTC para a data especificada.
+Métodos para definir a data e hora:
+
+setDate(): Define o dia do mês para a data especificada.
+setFullYear(): Define o ano (quatro dígitos) para a data especificada.
+setHours(): Define as horas (de 0 a 23) para a data especificada.
+setMilliseconds(): Define os milissegundos (de 0 a 999) para a data especificada.
+setMinutes(): Define os minutos (de 0 a 59) para a data especificada.
+setMonth(): Define o mês (de 0 a 11) para a data especificada.
+setSeconds(): Define os segundos (de 0 a 59) para a data especificada.
+setTime(): Define o valor numérico correspondente ao número de milissegundos desde 1º de janeiro de 1970 00:00:00 UTC para a data especificada.
+Métodos para retornar valores específicos de data e hora:
+
+getDate(): Retorna o dia do mês (de 1 a 31) para a data especificada.
+getDay(): Retorna o dia da semana (de 0 a 6) para a data especificada.
+getFullYear(): Retorna o ano (quatro dígitos) para a data especificada.
+getHours(): Retorna as horas (de 0 a 23) para a data especificada.
+getMilliseconds(): Retorna os milissegundos (de 0 a 999) para a data especificada.
+getMinutes(): Retorna os minutos (de 0 a 59) para a data especificada.
+getMonth(): Retorna o mês (de 0 a 11) para a data especificada.
+getSeconds(): Retorna os segundos (de 0 a 59) para a data especificada.
+getTime(): Retorna o valor numérico correspondente ao número de milissegundos desde 1º de janeiro de 1970 00:00:00 UTC para a data especificada.
+getTimezoneOffset(): Retorna o deslocamento em minutos para a hora UTC para a data especificada.
+toDateString(): Retorna a data em uma string no formato "dia da semana mês dia ano".
+toISOString(): Retorna a data em uma string no formato ISO (ex: "2023-04-12T19:26:15.873Z").

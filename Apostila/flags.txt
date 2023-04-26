@@ -1,0 +1,106 @@
+  tsc
+//Compila o projeto atual (tsconfig.json no diretório de trabalho).
+
+tsc app.ts util.ts
+//Ignorando o tsconfig.json, compila os arquivos especificados com as opções de compilador padrão.
+
+tsc -b
+//Constrói um projeto composto no diretório de trabalho.
+
+tsc --init
+//Cria um tsconfig.json com as configurações recomendadas no diretório de trabalho.
+
+tsc -p ./caminho/para/tsconfig.json
+//Compila o projeto TypeScript localizado no caminho especificado.
+
+tsc --help --all
+//Uma versão expandida dessas informações, mostrando todas as possíveis opções do compilador.
+
+tsc --noEmit
+tsc --target esnext
+//Compila o projeto atual com configurações adicionais.
+
+OPÇÕES DO TERMINAL
+
+--help, -h  Mostra essa todas as flags.
+
+--watch, -w  Observa os arquivos de entrada.
+
+--all  Mostra todas as opções do compilador.
+
+--version, -v Mostra a versão do compilador.
+
+ --init  Inicializa um projeto TypeScript e cria um arquivo tsconfig.json. ( importante )
+
+ --project, -p Compila o projeto dado o caminho para o arquivo de configuração, ou para uma pasta com um 'tsconfig.json'.
+
+ --project, -p Compila o projeto dado o caminho para o arquivo de configuração, ou para uma pasta com um 'tsconfig.json'.
+
+ --showConfig Mostra a configuração final em vez de compilar.
+
+ --pretty	boolean	true	Habilita cores e formatação na saída do TypeScript para tornar os erros do compilador mais fáceis de ler.
+        type:  boolean
+        default:  true
+
+--declaration, -d	boolean	false	Gera arquivos .d.ts a partir de arquivos TypeScript e JavaScript no seu projeto.
+           type:  boolean
+           default:  `false`, unless `composite` is set
+
+--declarationMap	boolean	false	Cria sourcemaps para os arquivos d.ts.
+            type:  boolean
+            default:  false
+
+--emitDeclarationOnly	boolean	false	Somente gera arquivos d.ts e não arquivos JavaScript.
+            type:  boolean
+            default:  false
+
+--sourceMap	boolean	false	Cria arquivos de source map para os arquivos JavaScript emitidos.
+            type:  boolean
+            default:  false
+
+--target, -t	enum	es5	Define a versão da linguagem JavaScript para os arquivos JavaScript emitidos e inclui declarações de biblioteca compatíveis.
+             one of:  es3, es5, es6/es2015, es2016, es2017, es2018, es2019, es2020, es2021, es2022, esnext
+             default:  es5
+
+--module, -m	enum	-	Especifica o código do módulo que é gerado.
+            one of:  none, commonjs, amd, umd, system, es6/es2015, es2020, es2022, esnext, node16, nodenext
+            default:  undefined
+
+--lib	lista	-	Especifica um conjunto de arquivos de declaração de biblioteca agrupados que descrevem o ambiente de tempo de execução alvo.
+             one or more:  es5, es6/es2015, es7/es2016, es2017, es2018, es2019, es2020, es2021, es2022, es2023, esnext, dom, dom.iterable, web                         worker, webworker.importscripts, webworker.iterable, scripthost, es2015.core, es2015.collection, es2015.generator, 
+                         es2015.iterable, es2015.promise, es2015.proxy, es2015.reflect, es2015.symbol, es2015.symbol.wellknown, es2016.array                         .include, es2017.object, es2017.sharedmemory, es2017.string, es2017.intl, es2017.typedarrays, es2018.asyncgenerator                         , es2018.asynciterable/esnext.asynciterable, es2018.intl, es2018.promise, es2018.regexp, es2019.array, es2019.objec                         t, es2019.string, es2019.symbol/esnext.symbol, es2019.intl, es2020.bigint/esnext.bigint, es2020.date, es2020.promis                         e, es2020.sharedmemory, es2020.string, es2020.symbol.wellknown, es2020.intl, es2020.number, es2021.promise/esnext.p                         romise, es2021.string, es2021.weakref/esnext.weakref, es2021.intl, es2022.array, es2022.error, es2022.intl, es2022.                         object, es2022.sharedmemory, es2022.string/esnext.string, es2022.regexp, es2023.array/esnext.array, esnext.intl, de                         corators, decorators.legacy
+             default:  undefined
+
+--allowJs	boolean	false	Permite que arquivos JavaScript façam parte do seu programa. Use a opção 'checkJS' para obter erros desses arquivos.
+            type:  boolean
+            default:  false
+
+--checkJs	boolean	false	Habilita relatórios de erro em arquivos JavaScript verificados pelo tipo.
+            type:  boolean
+            default:  false
+
+--jsx	enum	-	Especifica o código JSX que é gerado.
+            one of:  preserve, react, react-native, react-jsx, react-jsxdev
+            default:  undefined
+
+--outFile	string	-	Especifica um arquivo que agrupa todas as saídas em um arquivo JavaScript. Se 'declaration' for verdadeiro, também designa um arquivo que agrupa todas as saídas .d.ts.
+
+--outDir	string	-	Especifica uma pasta de saída para todos os arquivos emitidos.
+
+--removeComments	boolean	false	Desabilita a emissão de comentários.
+            type:  boolean
+            default:  false
+
+--noEmit	boolean	false	Desabilita a emissão de arquivos a partir de uma compilação.
+            type:  boolean
+            default:  false
+
+--strict	boolean	false	Habilita todas as opções de verificação de tipo estrito.
+            type:  boolean
+            default:  false
+
+--types	lista	-	Especifica os nomes dos pacotes de tipo a serem incluídos sem serem referenciados em um arquivo de origem.
+            
+--esModuleInterop	boolean	false	Emite JavaScript adicional para facilitar o suporte à importação de módulos CommonJS. Isso habilita 'allowSyntheticDefaultImports' para compatibilidade de tipo.
+            type:  boolean
+            default:  false

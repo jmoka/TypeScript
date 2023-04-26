@@ -1,0 +1,99 @@
+Palavra-chave	Conceito na OOP
+
+abstract	
+Classe que não pode ser instanciada diretamente, mas pode ser estendida por outras classes
+as	Conversão de tipo explícita em uma expressão
+
+async	
+Função assíncrona que pode ser usada para realizar operações de longa duração sem bloquear o thread principal de execução
+
+await	
+Usado para aguardar a conclusão de uma função assíncrona antes de continuar a execução do código
+
+break	
+Usado para sair de um loop ou switch statement
+
+case	
+Usado em switch statements para definir um caso para ser avaliado
+
+catch	
+Usado em try-catch statements para capturar exceções lançadas em um bloco try
+
+class	
+Usado para definir uma classe que pode ter propriedades e métodos
+
+const	
+Usado para definir uma variável com um valor constante que não pode ser reatribuído
+
+constructor	
+Método especial de uma classe usado para inicializar objetos da classe
+
+continue	
+Usado para pular uma iteração de um loop
+
+debugger	
+Usado para interromper a execução do código em um ponto de depuração
+
+declare
+Usado para declarar tipos de variáveis, funções e módulos
+
+default	
+Usado em switch statements para definir um caso padrão a ser executado se nenhum dos casos corresponder
+
+delete	
+Usado para remover uma propriedade de um objeto 
+
+do	
+Usado para iniciar um loop do-while
+
+else	
+Usado em uma estrutura de controle condicional para executar um bloco de código se a condição for falsa
+
+enum
+Usado para definir um conjunto de valores nomeados
+
+export	
+Usado para tornar disponíveis funções, classes e outros elementos fora de um módulo
+
+extends	
+Usado para estender uma classe pai com uma classe filho
+
+false	
+Valor booleano que representa falsidade
+
+finally	
+Usado em try-catch-finally statements para executar um bloco de código depois que um bloco try ou catch é concluído
+
+for	
+Usado para iniciar um loop for
+
+function	
+Usado para definir uma função
+
+if	
+Usado em uma estrutura de controle condicional para executar um bloco de código se uma condição for verdadeira
+
+implements	
+Usado em uma classe para implementar uma ou mais interfaces
+
+import	
+Usado para importar funções, classes e outros elementos de um módulo
+
+in	
+Usado para verificar se uma propriedade específica existe em um objeto
+
+instanceof	
+Usado para verificar se um objeto é uma instância de uma classe específica
+
+interface	
+Usado para definir um contrato que especifica um conjunto de propriedades e métodos que uma classe deve implementar
+
+let
+Usado para definir uma variável com um escopo limitado
+
+new	
+Usado para criar uma nova instância de uma classe
+
+null	
+Valor especial que representa a ausência de valor
+package	Usado para agrupar classes relacionadas em um pacote

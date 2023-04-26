@@ -1,0 +1,24 @@
+"use strict";
+let semTipo = "CONSTANTE SEM TIPAGEM";
+const comtipagem = "CONSTANTE COM TIPAGEM";
+semTipo = "trocando o valor CONSTANTE SEM TIPAGEM";
+console.log(semTipo);
+console.log(comtipagem);
+const array_com_valores_informados = [1, "joão", new Date()];
+const array_vazia_sem_tipagem = [];
+array_com_valores_informados.push(new Date());
+array_com_valores_informados.push(3);
+array_com_valores_informados.push("maria");
+array_vazia_sem_tipagem.push(true);
+array_vazia_sem_tipagem.push(1);
+array_vazia_sem_tipagem.push("string");
+array_vazia_sem_tipagem.push(new Date(2021, 1, 1));
+const array_com_tipagem1 = [];
+array_com_tipagem1.push(true);
+array_com_tipagem1.push(1);
+array_com_tipagem1.push("string");
+const array_com_tipagem2 = [];
+array_com_tipagem2.push(1);
+array_com_tipagem2.push("string");
+array_com_tipagem2.push(new Date(2021, 1, 1));
+//# sourceMappingURL=tipos_dados.js.map
